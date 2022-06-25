@@ -1,0 +1,102 @@
+.container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color:darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    text-align: center;
+}
+
+::placeholder {
+    color: darkslategrey;
+    opacity: 1;
+    position: relative;
+}
+
+table {
+    margin: auto;
+    padding: 05px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+input {
+    font-size: 33px;
+    color: darkblue;
+    border-radius: 0px;
+    border: 0px;
+    border-color: rgb(9, 1, 15); 
+}
+
+button {
+    font-size: 25px;
+    background: lightgreen;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.btn1
+{
+    background-color: lightyellow;
+}
+
+.btn2 {
+    background-color: lightpink;
+}
+
+.calculator {
+    border: 3px solid lightgray;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 15px;
+    background-color:whitesmoke;
+}
+     
+body.dark {
+	background: #292C35;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	position: relative;
+	height: 20px;
+	width: 42px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 20px;
+	width: 20px;
+	transform: translateX(0px);
+	transition: transform 0.1s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+}
+
